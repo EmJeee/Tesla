@@ -1,0 +1,394 @@
+html, body{
+    background-color: #ffffff;
+    height: 100%;
+}   
+
+h1{
+    text-align: center;
+    font-size: 5.2em;
+    font-family: "Impact";
+    color: #ffffff;
+}
+
+h2{
+    color: #ffffff;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+}
+
+p{
+    font-family: "Trebuchet MS";
+}
+
+iframe{
+    display: block;
+    margin: 0 auto;
+}
+
+
+.mainBox{
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+
+.navBar{
+    padding-top: 1em;
+}
+.navBar ul{
+    text-align: center;
+}
+.navBar li{
+    display: inline;
+    padding-right: 1em;
+}
+
+.navBar a{
+    font-family: "Impact";
+    letter-spacing: 1px;
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(255, 110, 122);
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.navBar a:hover, .models a:hover{
+    color: rgba(255, 110, 122, 0.1);
+    transition: 0.4s;
+}
+
+.modelDropDown li a:hover{
+    display: block;
+}
+.modelDropDown a:hover{
+    display: none;
+}
+
+/*.DropButton a:hover .modelDropDown{
+    display: block;
+    color: blue;  
+    font-size: 10em;
+}*/
+
+/*.modelDropDown li ul li {
+    display: block;
+}*/
+
+.main{
+    /*background: #000;*/
+    /*max-height: auto;*/
+    width: 60%;
+    float: left;
+}
+.main h1{
+    /*font-size: 5.2em;*/
+    font-family: "Trebuchet MS";
+    text-transform: uppercase;
+    padding-top: 2.5em;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(255, 110, 122);
+}
+
+.main h2{
+    text-align: center;
+}
+
+
+.left{
+    /*display: flex;
+    justify-content: center;  align horizontal 
+    align-items: center;*/
+
+    padding-left: 1%;
+    /*padding-top: 1%;*/
+    width: 19%;
+    min-height: 100%;
+    /*background-color: rgba(191, 191, 191, 0.3);*/
+    float: left;
+}
+
+.left img{
+    min-width: 100%;
+    padding-top: 2em;
+    padding-left: 2em;
+    width: 100%;
+
+}
+
+ .right{
+    width: 20%;
+    min-height: 100%;
+    /*background-color: rgba(191, 191, 191, 0.3);*/
+    /*background: linear-gradient(to right, transparent , rgba(6, 6, 6, 0.5), rgba(6, 6, 6, 0.6));*/
+    float: left;
+}
+
+.Question{
+    margin-right: 2em;
+    padding: 1em;
+    margin-top: 20%;
+    border: solid 2px white;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.Question h1{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(255, 110, 122);
+    font-family: "Trebuchet MS";
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: left;
+    padding-bottom: 0.5em;
+}
+.Question h2{
+    font-size: 1em;
+    text-shadow: 2px 2px 2px rgb(255, 110, 122);
+    text-align: left;
+}
+
+.Question input{
+    width: 100%;
+
+}
+.models {
+    padding-top: 70%;
+    display: table;
+    text-align: center;
+}
+
+.models a{
+    font-family: "Impact";
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(255, 110, 122);
+    text-transform: uppercase;
+    width: 80%;
+    margin: 0.5em;
+    margin-right: 10%;
+    padding: 0.6em;
+    display: table; 
+    text-decoration: none;
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgba(255, 110, 122, 0.1);
+    /*box-shadow: 2px 2px 2px rgb(111, 111, 111);*/
+   
+}
+
+.models a:hover{
+    background-color: rgba(255, 110, 122, 0.3);
+    transition: 0.4s;
+}
+
+/*.right h1{
+    padding-top: 0.5em;
+    border-bottom: 0.05em solid rgba(245, 245, 245, 0.5);
+}*/
+ 
+.specBox{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    height: 30%;
+    width: 100%;
+    background-color: violet;
+    display: table;
+    border-bottom: 2px solid rgba(130, 130, 130, 0.3);
+    border-radius: 2px;
+    background: linear-gradient(to top, #eee  0%, #fff 2%);
+
+}
+
+.specBox ul{
+    text-align: center;
+    padding: 0em;
+}
+
+.specBox li{
+    font-family: "Trebuchet MS";
+    list-style-type: none;
+    padding: 0em 2em 0em 2em;
+    display: inline-block;
+    /*text-align: center;*/
+    font-size: 1em;
+}
+
+.specBox li > h2{
+    font-family: "Trebuchet MS";
+    color: rgb(255, 110, 122);
+    font-size: 2em;   
+}
+
+.specBox iframe{
+    /*float: ;*/
+}
+
+.specBox h1{
+    font-size: 2em;
+    font-family: "Trebuchet MS";
+    text-transform: uppercase;
+    padding-top: 5%;
+    color: rgb(255, 110, 122);
+    text-align: center;
+}
+.specBox> p{
+    font-family: "Trebuchet MS";
+    text-align: center;
+    padding-top: 1%;
+    padding-left: 33%;
+    padding-right: 33%;
+    padding-bottom: 5%;
+}
+.specLeft, .specRight{
+    height: 100%;
+    width: 50%;
+    float: left;
+    margin: 0 auto;
+
+}
+
+.specLeft{
+    /*background-color: yellow;*/
+}
+
+.specLeft img{
+    max-width: 70%;
+    max-height: 100%;
+    float: right;
+}
+
+.specLeft iframe{
+    max-width: 70%;
+    max-height: 100%;
+    float: right;
+}
+
+.specRight iframe{
+    max-width: 70%;
+    max-height: 100%;
+    float: left;
+
+}
+
+.specRight img{
+    width: 70%;
+    max-height: 100%;
+    float: left;
+}
+
+.specRight{
+
+    /*background-color: red;*/
+    /*align-items: center;*/
+}
+
+.specRight h1, .specLeft h1{
+    color: rgb(255, 110, 122);
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 2%;
+    /*vertical-align: middle;*/
+}
+
+.specRight p, .specLeft p{
+    /*padding-left: 2em;*/
+    /*padding-right: 2em;*/
+    text-align: center;
+    /*vertical-align: middle;*/
+}
+
+/*.Contacts{
+    padding-bottom: em;
+}*/
+.Contacts h1{
+    padding-top: 2em;
+}
+.footer{
+    height: 50px;
+    background-color: #131313;   
+    clear: both;
+
+}
+
+.Galery{
+    text-align: center;
+}
+.Galery img{
+    border: solid 2px rgb(255, 110, 122);
+    max-width: 30%;
+    max-height:30%;
+    margin: 1em;
+}
+
+@media screen and (max-width: 560px) {
+    
+    .left img{
+        display: none;
+    }
+    .main h1{
+        padding-top: 0.5em;
+        font-size: 3em;
+        /*color: red;*/
+    }
+
+    .main h2{
+        display: none;
+        font-size: 1em;
+        color: red;
+    }
+
+    .mainBox{
+        max-height: 200px;
+        /*background-color: #ffff99;*/
+    }
+}
+
+.footer{
+    max-height: 20%;
+    text-align: center;
+}
+
+.footer p{
+    padding-top: 1em;
+}
+
+
+/* .news {
+    opacity: 0.2;
+    margin-left: 2em;
+}
+.news h2, h3, a, p{
+    text-align: left;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-family: "Trebuchet MS";
+    color: #edecf6;
+}
+.news h2{
+    padding-top: 1em;
+    text-transform: uppercase;
+    text-align: left;
+    color: rgba(225, 225, 225, 1);
+}
+
+.news p{
+    font-family: "Trebuchet MS";
+    font-weight: 600;
+    font-size: 1em;  
+    color: rgba(220, 220, 220, 0.6); 
+}
+
+.news h3{
+    color: rgba(210, 210, 210, 0.7);
+    font-size: 0.6em;
+    text-transform: uppercase;
+    padding-bottom: 0.5em;
+}
+
+
+.news:hover {
+    opacity: 1;
+} */
