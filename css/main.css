@@ -345,6 +345,29 @@ iframe{
         max-height: 200px;
         /*background-color: #ffff99;*/
     }
+
+    #index{
+        width: 100%;
+        align-items: center;
+    }
+
+    .models{
+        width: 80%;
+        padding: 0px;
+        margin: 1em;
+        align-items: center;
+        align-content: center;
+        background-color: red;
+    }
+
+    .models a{
+        padding-left: 2em;
+        padding-right: 2em;
+        background-color: rgba(105, 108, 108, 0.5);
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
 
 .footer{
