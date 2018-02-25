@@ -1,7 +1,7 @@
 html, body{
     background-color: #ffffff;
     height: 100%;
-}   
+}
 
 h1{
     text-align: center;
@@ -71,7 +71,7 @@ iframe{
 
 /*.DropButton a:hover .modelDropDown{
     display: block;
-    color: blue;  
+    color: blue;
     font-size: 10em;
 }*/
 
@@ -101,7 +101,7 @@ iframe{
 
 .left{
     /*display: flex;
-    justify-content: center;  align horizontal 
+    justify-content: center;  align horizontal
     align-items: center;*/
 
     padding-left: 1%;
@@ -120,7 +120,7 @@ iframe{
 
 }
 
- .right{
+.right{
     width: 20%;
     min-height: 100%;
     /*background-color: rgba(191, 191, 191, 0.3);*/
@@ -169,12 +169,12 @@ iframe{
     width: 80%;
     margin: 0.5em 10% 0.5em 0.5em;
     padding: 0.6em;
-    display: table; 
+    display: table;
     text-decoration: none;
     border: 3px solid rgb(255, 255, 255);
     background-color: rgba(255, 110, 122, 0.1);
     /*box-shadow: 2px 2px 2px rgb(111, 111, 111);*/
-   
+
 }
 
 .models a:hover{
@@ -186,7 +186,7 @@ iframe{
     padding-top: 0.5em;
     border-bottom: 0.05em solid rgba(245, 245, 245, 0.5);
 }*/
- 
+
 .specBox{
     padding-top: 2em;
     padding-bottom: 2em;
@@ -216,7 +216,7 @@ iframe{
 .specBox li > h2{
     font-family: "Trebuchet MS", sans-serif;
     color: rgb(255, 110, 122);
-    font-size: 2em;   
+    font-size: 2em;
 }
 
 .specBox iframe{
@@ -302,7 +302,7 @@ iframe{
 }
 .footer{
     height: 50px;
-    background-color: #131313;   
+    background-color: #131313;
     clear: both;
 
 }
